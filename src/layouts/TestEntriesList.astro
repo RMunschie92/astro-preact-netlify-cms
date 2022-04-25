@@ -6,7 +6,7 @@ import Base from './Base.astro';
 let testEntries = [];
 let noEntriesMessageClass = 'hidden';
 try {
-  testEntries = await Astro.glob('../pages/test-entries/*.md');
+  testEntries = await Astro.glob('./test-entries/*.md');
 }
 catch {
   noEntriesMessageClass = '';
