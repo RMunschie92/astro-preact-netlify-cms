@@ -1,0 +1,23 @@
+---
+// Imports
+import Base from './Base.astro';
+import Counter from '../components/specifics/Counter.jsx';
+import '../styles/pages/About.css';
+
+// The content prop gives access to frontmatter in a layout
+const { content } = Astro.props;
+---
+<Base title="About">
+  <h2>{content.title}</h2>
+
+  <p>{content.banner_heading}</p>
+
+  <img src={content.left_banner_image} />
+  <img src={content.right_banner_image} />
+
+  <article>
+    <slot />
+  </article>
+
+  <Counter client:load />
+</Base>
