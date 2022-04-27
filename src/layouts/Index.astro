@@ -1,6 +1,7 @@
 ---
 // Imports
 import Base from './Base.astro';
+import Counter from '../components/specifics/Counter.jsx';
 import '../styles/layouts/Index.css';
 
 // The content prop gives access to frontmatter in a layout
@@ -16,4 +17,6 @@ const { content } = Astro.props;
   <article>
     <slot />
   </article>
+
+  <Counter client:load />
 </Base>
