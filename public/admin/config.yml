@@ -24,6 +24,21 @@ collections:
           - {label: "Banner image", name: "banner_image", widget: "image"}
           - {label: "Banner heading", name: "banner_heading", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
+      - name: "about"
+        label: "About"
+        file: "src/pages/about.md"
+        format: "frontmatter"
+        fields:
+          - label: "Layout"
+            name: "layout"
+            widget: "select"
+            options:
+              - { label: "About", value: "../layouts/About.astro" }
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Left banner image", name: "left_banner_image", widget: "image"}
+          - {label: "Right banner image", name: "right_banner_image", widget: "image"}
+          - {label: "Banner heading", name: "banner_heading", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
       - name: "test-entries-list"
         label: "Test Entries List"
         file: "src/pages/test-entries-list.md"
@@ -37,6 +52,17 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Banner image", name: "banner_image", widget: "image"}
           - {label: "No entries message", name: "no_entries_message", widget: "string"}
+      - name: "contact"
+        label: "Contact"
+        file: "src/pages/contact.md"
+        format: "frontmatter"
+        fields:
+          - label: "Layout"
+            name: "layout"
+            widget: "select"
+            options:
+              - { label: "Contact", value: "../layouts/Contact.astro" }
+          - {label: "Title", name: "title", widget: "string"}
   #
   # Test entries
   #
