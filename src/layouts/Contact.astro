@@ -3,9 +3,13 @@
 import Base from './Base.astro';
 import '../styles/layouts/Contact.css';
 
+import ContactForm from '../components/specifics/ContactForm.jsx';
+
 // The content prop gives access to frontmatter in a layout
 const { content } = Astro.props;
 ---
 <Base title="Contact">
   <h2>{content.title}</h2>
+
+  <ContactForm client:load />
 </Base>
