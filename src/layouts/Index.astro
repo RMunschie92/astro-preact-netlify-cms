@@ -4,22 +4,13 @@ import Base from './Base.astro';
 
 import '../styles/layouts/Index.css';
 
-import Counter from '../components/specifics/Counter.jsx';
+import Index from '../components/containers/Index.jsx';
 
 // The content prop gives access to frontmatter in a layout
 const { content } = Astro.props;
 ---
 <Base title="Index">
-  <h2>{content.title}</h2>
-
-  <p>{content.banner_heading}</p>
-
-  <img src={content.banner_image} />
-
-  <article>
+  <Index content={content} client:load>
     <slot />
-  </article>
-
-  <Counter client:load />
-
+  </Index>
 </Base>

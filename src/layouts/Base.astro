@@ -27,9 +27,7 @@ const bodyClass = props.title[0].toLowerCase() + props.title.substring(1);
   <body class={bodyClass}>
     <GlobalHeader />
 
-    <main>
-      <slot /> <!-- Child passed is injected here-->
-    </main>
+    <slot /> <!-- Child passed is injected here-->
 
     <GlobalFooter />
   </body>
