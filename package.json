@@ -1,16 +1,26 @@
 {
-  "name": "@example/starter",
-  "version": "0.0.1",
-  "private": true,
+  "name": "astro-preact-netlify-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
     "build-site": "astro build",
     "preview": "astro preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RMunschie92/astro-preact-netlify-cms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RMunschie92/astro-preact-netlify-cms/issues"
+  },
+  "homepage": "https://github.com/RMunschie92/astro-preact-netlify-cms#readme",
   "devDependencies": {
     "@astrojs/preact": "^0.1.2",
-    "astro": "^0.26.0",
+    "astro": "^1.0.0-beta.19",
     "preact": "^10.7.1"
   }
 }
