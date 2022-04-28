@@ -13,7 +13,7 @@ const Button = (props) => {
     () => {};
 
   return (
-    <button onClick={callback}>
+    <button disabled={props.disabled} onClick={callback}>
       {props.children}
     </button>
   )
