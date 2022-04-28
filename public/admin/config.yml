@@ -52,6 +52,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Banner image", name: "banner_image", widget: "image"}
           - {label: "No entries message", name: "no_entries_message", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
       - name: "contact"
         label: "Contact"
         file: "src/pages/contact.md"
@@ -63,6 +64,7 @@ collections:
             options:
               - { label: "Contact", value: "../layouts/Contact.astro" }
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
   #
   # Test entries
   #
