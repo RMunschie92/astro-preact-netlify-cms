@@ -1,32 +1,14 @@
 ---
 // Imports
 import Base from './Base.astro';
-import '../styles/layouts/TestEntriesList.css';
+
+import TestEntriesList from '../components/containers/TestEntriesList.jsx';
 
 // Fetch all files in /pages/test-entries/
-let testEntries = [];
-let noEntriesMessageClass = 'hidden';
-try {
-  testEntries = await Astro.glob('../pages/test-entries/*.md');
-}
-catch {
-  noEntriesMessageClass = '';
-  console.error('No entries in /test-entries.')
-}
+const testEntries = await Astro.glob('../pages/test-entries/*.md');
 ---
 <Base title="test-entries">
 
-  <h1>Test Entries</h1>
-
-  <p class={noEntriesMessageClass}>No test entries found</p>
-
-  <ul>
-    {testEntries.map((post) => (
-      <li>
-        <h2>{post.frontmatter.title}</h2>
-        <a href={post.url}>Read more</a>
-      </li>
-    ))}
-  </ul>
+  <TestEntriesList entries={testEntries} client:load />
 
 </Base>

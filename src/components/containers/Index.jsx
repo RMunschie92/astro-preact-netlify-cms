@@ -4,6 +4,7 @@
 // Libraries
 
 // CSS
+import '../../styles/components/containers/Index.css';
 
 // Components
 import Counter from '../specifics/Counter.jsx';
