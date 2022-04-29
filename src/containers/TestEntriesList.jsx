@@ -1,3 +1,10 @@
+/**
+ * Astro Preact Netilify CMS Sandbox - Static site.
+ *
+ * @module /containers/TestEntriesList
+ * @description The "TestEntriesList" page container.
+ */
+
 //------------------------------------------------------------------------------
 // Imports
 //------------------------------------------------------------------------------

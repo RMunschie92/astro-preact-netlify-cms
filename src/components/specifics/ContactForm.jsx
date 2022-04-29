@@ -1,3 +1,10 @@
+/**
+ * Astro Preact Netilify CMS Sandbox - Static site.
+ *
+ * @module /components/specifics/ContactForm
+ * @description An example of a contact form.
+ */
+
 //------------------------------------------------------------------------------
 // Imports
 //------------------------------------------------------------------------------
@@ -80,6 +87,10 @@ const ContactForm = () => {
     checkSubmitDisabled();
   }
 
+  /**
+   * Helper function to determine if the submit button should be disabled or not.
+   * @return {null} Executes `setSubmitDisabled()` callback.
+   */
   const checkSubmitDisabled = () => {
     if (firstName && lastName && email && emailIsInvalid !== true) {
       setSubmitDisabled(false);

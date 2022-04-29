@@ -1,3 +1,10 @@
+/**
+ * Astro Preact Netilify CMS Sandbox - Static site.
+ *
+ * @module /containers/Index
+ * @description The "Index"/homepage page container.
+ */
+
 //------------------------------------------------------------------------------
 // Imports
 //------------------------------------------------------------------------------

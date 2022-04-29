@@ -1,3 +1,10 @@
+/**
+ * Astro Preact Netilify CMS Sandbox - Static site.
+ *
+ * @module /components/specifics/Counter
+ * @description A counter component just to show off the stack.
+ */
+
 //------------------------------------------------------------------------------
 // Imports
 //------------------------------------------------------------------------------

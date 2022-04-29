@@ -1,3 +1,10 @@
+/**
+ * Astro Preact Netilify CMS Sandbox - Static site.
+ *
+ * @module /containers/About
+ * @description The "About" page container.
+ */
+
 //------------------------------------------------------------------------------
 // Imports
 //------------------------------------------------------------------------------

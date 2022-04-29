@@ -1,3 +1,6 @@
+/**
+ * components/generics/Button.css
+*/
 button {
   background-color: var(--contrast-color);
   border: 1px solid var(--opposite-color);
