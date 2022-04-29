@@ -4,10 +4,10 @@
 // Libraries
 
 // CSS
-import '../../styles/components/containers/Index.css';
+import '../styles/containers/Index.css';
 
 // Components
-import Counter from '../specifics/Counter.jsx';
+import Counter from '../components/specifics/Counter.jsx';
 
 //------------------------------------------------------------------------------
 // Component

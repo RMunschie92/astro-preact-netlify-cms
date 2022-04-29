@@ -2,13 +2,11 @@
 // Imports
 import Base from './Base.astro';
 
-import TestEntriesList from '../components/containers/TestEntriesList.jsx';
+import TestEntriesList from '../containers/TestEntriesList.jsx';
 
 // Fetch all files in /pages/test-entries/
 const testEntries = await Astro.glob('../pages/test-entries/*.md');
 ---
-<Base title="test-entries">
-
+<Base title="Test Entries">
   <TestEntriesList entries={testEntries} client:load />
-
 </Base>

@@ -4,10 +4,10 @@
 // Libraries
 
 // CSS
-import '../../styles/components/containers/Contact.css';
+import '../styles/containers/Contact.css';
 
 // Components
-import ContactForm from '../specifics/ContactForm.jsx';
+import ContactForm from '../components/specifics/ContactForm.jsx';
 
 //------------------------------------------------------------------------------
 // Component

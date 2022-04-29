@@ -4,7 +4,7 @@
 // Libraries
 
 // CSS
-import '../../styles/components/containers/TestEntriesList.css';
+import '../styles/containers/TestEntriesList.css';
 
 // Components
 

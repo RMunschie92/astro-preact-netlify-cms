@@ -1,12 +1,12 @@
 ---
 // Imports
 import Base from './Base.astro';
-import TestEntry from '../components/containers/TestEntry.jsx';
+import TestEntry from '../containers/TestEntry.jsx';
 
 // Access frontmatter/markdown from source file
 const { content } = Astro.props;
 ---
-<Base title="test-entry">
+<Base title="Test Entry">
   <TestEntry content={content} client:load>
     <slot />
   </TestEntry>
