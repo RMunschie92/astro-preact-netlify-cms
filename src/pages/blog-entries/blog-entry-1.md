@@ -2,6 +2,7 @@
 identifier: blog-entry-1
 title: Blog Entry 1
 banner_image: /uploads/cats.jpg
+banner_image_alt_description: Two cats snuggling on the edge of a couch.
 layout: ../../layouts/TestEntry.astro
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non sodales neque sodales ut etiam sit. Sit amet nisl suscipit adipiscing. Eget sit amet tellus cras. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Donec et odio pellentesque diam volutpat commodo sed egestas. Erat velit scelerisque in dictum non consectetur. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Dictum sit amet justo donec enim diam vulputate ut. Consequat interdum varius sit amet mattis vulputate. Nunc lobortis mattis aliquam faucibus. Ut ornare lectus sit amet est placerat in egestas erat.
