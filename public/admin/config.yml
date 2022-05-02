@@ -36,7 +36,9 @@ collections:
               - { label: "About", value: "../layouts/About.astro" }
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Left banner image", name: "left_banner_image", widget: "image"}
+          - {label: "Left banner image alt description", name: "left_banner_image_alt_description", widget: "string", hint: "A text description of the image. incredibly useful for accessibility — screen readers read this description out to their users so they know what the image means. Alt text is also displayed on the page if the image can't be loaded for some reason: for example, network errors, content blocking, or linkrot."}
           - {label: "Right banner image", name: "right_banner_image", widget: "image"}
+          - {label: "Left banner image alt description", name: "left_banner_image_alt_description", widget: "string", hint: "A text description of the image. incredibly useful for accessibility — screen readers read this description out to their users so they know what the image means. Alt text is also displayed on the page if the image can't be loaded for some reason: for example, network errors, content blocking, or linkrot."}
           - {label: "Banner heading", name: "banner_heading", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
       - name: "test-entries-list"
@@ -51,6 +53,7 @@ collections:
               - { label: "Test Entries List", value: "../layouts/TestEntriesList.astro" }
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Banner image", name: "banner_image", widget: "image"}
+          - {label: "Banner image alt description", name: "banner_image_alt_description", widget: "string", hint: "A text description of the image. incredibly useful for accessibility — screen readers read this description out to their users so they know what the image means. Alt text is also displayed on the page if the image can't be loaded for some reason: for example, network errors, content blocking, or linkrot."}
           - {label: "No entries message", name: "no_entries_message", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
       - name: "contact"
@@ -81,6 +84,7 @@ collections:
       - {label: "Identifier (set only once)", name: "identifier", widget: "string", hint: "URL friendly string containing only alphanumeric characters and hyphens. i.e. 'a-sample-identifier-1'"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Banner image", name: "banner_image", widget: "image"}
+      - {label: "Banner image alt description", name: "banner_image_alt_description", widget: "string", hint: "A text description of the image. incredibly useful for accessibility — screen readers read this description out to their users so they know what the image means. Alt text is also displayed on the page if the image can't be loaded for some reason: for example, network errors, content blocking, or linkrot."}
       - {label: "Layout", name: "layout", widget: "hidden", default: "../../layouts/TestEntry.astro"}
       - {label: "Content", name: "body", widget: "markdown"}
   #
@@ -99,5 +103,6 @@ collections:
       - {label: "Identifier (set only once)", name: "identifier", widget: "string", hint: "URL friendly string containing only alphanumeric characters and hyphens. i.e. 'a-sample-identifier-1'"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Banner image", name: "banner_image", widget: "image"}
+      - {label: "Banner image alt description", name: "banner_image_alt_description", widget: "string", hint: "A text description of the image. incredibly useful for accessibility — screen readers read this description out to their users so they know what the image means. Alt text is also displayed on the page if the image can't be loaded for some reason: for example, network errors, content blocking, or linkrot."}
       - {label: "Layout", name: "layout", widget: "hidden", default: "../../layouts/TestEntry.astro"}
       - {label: "Content", name: "body", widget: "markdown"}
