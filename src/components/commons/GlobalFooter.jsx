@@ -20,6 +20,11 @@ const GlobalFooter = () => {
 
   return (
     <footer>
+      <a href="https://facebook.com">
+        <img src="/assets/facebook.svg" />
+        <p class="visually-hidden">Facebook</p>
+      </a>
+
       <p>Testerson Industries Copyright {year}</p>
     </footer>
   )
