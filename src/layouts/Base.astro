@@ -4,6 +4,10 @@ import GlobalFooter from '../components/commons/GlobalFooter.jsx';
 
 // Get props sent to layout via frontmatter
 const { props } = Astro;
+
+//
+// Build body class from page title
+//
 let splitTitle = props.title.split(' ');
 let bodyClassArr = [];
 splitTitle.forEach((word) => bodyClassArr.push(word[0].toLowerCase() + word.substring(1)));
