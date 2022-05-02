@@ -2,7 +2,11 @@
 layout: ../layouts/About.astro
 title: About
 left_banner_image: /uploads/buildings.jpg
+left_banner_image_alt_description: View of a clocktower against a pale day's sky
+  with a row of apartment buildings in the foreground.
 right_banner_image: /uploads/apples.jpg
+right_banner_image_alt_description: A wooden bowl filled with apples resting on
+  the   corner of a table that is draped in a grey tablecloth.
 banner_heading: Lorem Ipsum
 ---
 Aliquet enim tortor at auctor urna nunc id. Egestas sed sed risus pretium quam. Sodales ut eu sem integer. Quis viverra nibh cras pulvinar mattis. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Amet luctus venenatis lectus magna fringilla urna porttitor. Faucibus ornare suspendisse sed nisi lacus. Quis varius quam quisque id diam vel quam elementum pulvinar. Amet venenatis urna cursus eget nunc scelerisque viverra mauris.
