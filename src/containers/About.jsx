@@ -34,8 +34,8 @@ const About = (props) => {
 
       <p>{content.banner_heading}</p>
 
-      <img src={content.left_banner_image} />
-      <img src={content.right_banner_image} />
+      <img src={content.left_banner_image} alt={content.left_banner_image_alt_description} />
+      <img src={content.right_banner_image} alt={content.right_banner_image_alt_description} />
 
       <article>
         {props.children}

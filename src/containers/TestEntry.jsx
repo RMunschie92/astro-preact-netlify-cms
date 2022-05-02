@@ -31,6 +31,8 @@ const TestEntry = (props) => {
     <main>
       <h2>{content.title}</h2>
 
+      <img src={content.banner_image} alt={content.banner_image_alt_description} />
+
       <article>
         {props.children}
       </article>

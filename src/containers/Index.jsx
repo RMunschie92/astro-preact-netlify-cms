@@ -34,7 +34,7 @@ const Index = (props) => {
 
       <p>{content.banner_heading}</p>
 
-      <img src={content.banner_image} />
+      <img src={content.banner_image} alt={content.banner_image_alt_description} />
 
       <article>
         {[props.children]}
